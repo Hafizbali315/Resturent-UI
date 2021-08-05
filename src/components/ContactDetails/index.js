@@ -1,13 +1,13 @@
-import Resturent from '../../assets/resturent.jfif'
+import Map from '../../assets/map.jfif'
 import './style.scss'
 
-const AboutResturent = () => {
+const ContactDetails = () => {
 	return (
-		<div className="about_resturent container-fluid">
+		<div className="contact_details container-fluid">
 			<div className="row">
 				<div className="col-lg-6 col-12">
 					<div className="content">
-						<h1>About Us</h1>
+						<h1>Contact Us</h1>
 
 						<div className="table-responsive">
 							<table className="table table-bordered">
@@ -38,18 +38,8 @@ const AboutResturent = () => {
 									</tr>
 
 									<tr>
-										<th>Owner/Customer Name: </th>
-										<td>Mr Adrian Venoin</td>
-									</tr>
-
-									<tr>
 										<th>Customer email: </th>
 										<td>Clearbusiness.adrianvenoin@gmail.com</td>
-									</tr>
-
-									<tr>
-										<th>Trading Since: </th>
-										<td>April 2020</td>
 									</tr>
 								</tbody>
 							</table>
@@ -57,11 +47,11 @@ const AboutResturent = () => {
 					</div>
 				</div>
 				<div className="col-lg-6 d-lg-block d-none resturent_image">
-					<img src={Resturent} alt="resturent" />
+					<img src={Map} alt="resturent" />
 				</div>
 			</div>
 		</div>
 	)
 }
 
-export default AboutResturent
+export default ContactDetails
