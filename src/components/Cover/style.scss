@@ -1,6 +1,7 @@
 .cover_page {
 	width: 100%;
 	min-width: calc(100vw - 20px);
+	max-width: 100vw;
 	min-height: 100vh;
 	max-height: 100vh;
 	background-image: url('../../assets/cover.jpg');

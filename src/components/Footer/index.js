@@ -28,13 +28,13 @@ const Footer = () => {
 
 			<div className="footer_links_row container-fluid">
 				<div className="row">
-					<div className="col-lg-3 col-md-4 col-6">
+					<div className="col-lg-3 col-md-4 col-5">
 						<Link to="/" className="text-decoration-none">
 							<img className="footer_logo" src={FooterLogo} alt="" />
 						</Link>
 						<p className="privacy_policy">Privacy Policy | Terms of Use</p>
 					</div>
-					<div className="col-lg-4 col-md-4 col-6">
+					<div className="col-lg-4 col-md-4 col-7">
 						<p className="email">Clearbusiness.adrianvenoin@gmail.com</p>
 						<p className="map mt-lg-4"> Unit 1, Chancerygate Industrial Cent, Horton Close, West Drayton UB7 8EW. United Kingdom</p>
 					</div>

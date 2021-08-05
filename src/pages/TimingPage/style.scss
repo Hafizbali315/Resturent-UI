@@ -1,0 +1,26 @@
+.timing_page {
+	margin-top: -150px;
+}
+
+@media screen and (max-width: 992px) {
+	.timing_page {
+		margin-top: -120px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.timing_page {
+		margin-top: -120px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.timing_page {
+		margin-top: -100px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.timing_page {
+		margin-top: -80px;
+	}
+}

@@ -43,24 +43,25 @@ const Header = () => {
 			<div className="header_links d-none d-lg-flex ">
 				<ul>
 					<li>
+						<Link className={`${headerColor === 'white' ? 'navlinksWhite' : 'navlinksBlack'} text-decoration-none `} to="/timing">
+							Timing
+						</Link>
+					</li>
+
+					<li>
 						<Link className={`${headerColor === 'white' ? 'navlinksWhite' : 'navlinksBlack'} text-decoration-none `} to="/about-us">
 							About us
 						</Link>
 					</li>
 					<li>
-						<Link className={`${headerColor === 'white' ? 'navlinksWhite' : 'navlinksBlack'} text-decoration-none `} to="/dishes">
-							Dishes
+						<Link className={`${headerColor === 'white' ? 'navlinksWhite' : 'navlinksBlack'} text-decoration-none `} to="/contact-us">
+							Contact Us
 						</Link>
 					</li>
 
 					<li>
 						<Link className={`${headerColor === 'white' ? 'navlinksWhite' : 'navlinksBlack'} text-decoration-none `} to="/menu">
-							Menu
-						</Link>
-					</li>
-					<li>
-						<Link className={`${headerColor === 'white' ? 'navlinksWhite' : 'navlinksBlack'} text-decoration-none `} to="/contact-us">
-							Contact Us
+							Menu & Pricing
 						</Link>
 					</li>
 				</ul>
@@ -88,25 +89,25 @@ const Header = () => {
 					<div className="mobile_menu_links">
 						<ul>
 							<li>
+								<Link className="text-white text-decoration-none" to="/timing">
+									Timing
+								</Link>
+							</li>
+							<li>
 								<Link className="text-white text-decoration-none" to="/about-us">
 									About us
-								</Link>
-							</li>
-							<li>
-								<Link className="text-white text-decoration-none" to="/dishes">
-									Dishes
-								</Link>
-							</li>
-
-							<li>
-								<Link className="text-white text-decoration-none" to="/menu">
-									Menu
 								</Link>
 							</li>
 
 							<li>
 								<Link className="text-white text-decoration-none" to="/contact-us">
 									Contact Us
+								</Link>
+							</li>
+
+							<li>
+								<Link className="text-white text-decoration-none" to="/menu">
+									Menu & Pricing
 								</Link>
 							</li>
 
