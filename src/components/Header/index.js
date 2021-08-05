@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import './style.scss'
 import { Link, useLocation } from 'react-router-dom'
 
-import HeaderLogoWhite from '../../assets/header-logo-white.svg'
-import HeaderLogoBlack from '../../assets/header-logo-black.svg'
+// import HeaderLogoWhite from '../../assets/header-logo-white.svg'
+// import HeaderLogoBlack from '../../assets/header-logo-black.svg'
 import Cancel from '../../assets/cancel.svg'
 
 import { GiHamburgerMenu } from 'react-icons/gi'
@@ -35,8 +35,8 @@ const Header = () => {
 	return (
 		<div className="header">
 			<div className="header_logo">
-				<Link to="/">
-					<img src={headerColor === 'white' ? HeaderLogoWhite : HeaderLogoBlack} alt="HeaderLogo" />
+				<Link to="/" className="text-decoration-none">
+					<h2 style={{ color: headerColor === 'white' ? 'white' : 'black' }}>24 Hours Italian Restaurant</h2>
 				</Link>
 			</div>
 
@@ -78,7 +78,9 @@ const Header = () => {
 				<div className="mobile_menu">
 					<div className="mobile_menu_header">
 						<div className="header_logo">
-							<img src={HeaderLogoWhite} alt="headerLogo" />
+							<Link to="/" className="text-decoration-none">
+								<h2 style={{ color: 'white' }}>24 Hours Italian Restaurant</h2>
+							</Link>
 						</div>
 
 						<div className="cancel" onClick={() => setShowSmallScreenMenu(false)}>
