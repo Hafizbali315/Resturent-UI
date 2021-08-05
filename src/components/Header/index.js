@@ -91,31 +91,31 @@ const Header = () => {
 					<div className="mobile_menu_links">
 						<ul>
 							<li>
-								<Link className="text-white text-decoration-none" to="/timing">
+								<Link className="text-white text-decoration-none" to="/timing" onClick={() => setShowSmallScreenMenu(false)}>
 									Timing
 								</Link>
 							</li>
 							<li>
-								<Link className="text-white text-decoration-none" to="/about-us">
+								<Link className="text-white text-decoration-none" to="/about-us" onClick={() => setShowSmallScreenMenu(false)}>
 									About us
 								</Link>
 							</li>
 
 							<li>
-								<Link className="text-white text-decoration-none" to="/contact-us">
+								<Link className="text-white text-decoration-none" to="/contact-us" onClick={() => setShowSmallScreenMenu(false)}>
 									Contact Us
 								</Link>
 							</li>
 
 							<li>
-								<Link className="text-white text-decoration-none" to="/menu">
+								<Link className="text-white text-decoration-none" to="/menu" onClick={() => setShowSmallScreenMenu(false)}>
 									Menu & Pricing
 								</Link>
 							</li>
 
 							<li>
 								<button>
-									Order Food <CgArrowLongRight className="arrow" />
+									Order Food <CgArrowLongRight className="arrow" onClick={() => setShowSmallScreenMenu(false)} />
 								</button>
 							</li>
 						</ul>
