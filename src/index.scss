@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	height: 100%;
+	width: 100%;
+
+	font-family: Anodina;
+}
+
+@font-face {
+	font-family: Anodina;
+	src: url('./fonts/Anodina-Regular.otf');
+}
+
+@font-face {
+	font-family: AnodinaLight;
+	src: url('./fonts/Anodina-Light.otf');
+}
+
+@font-face {
+	font-family: Anodina-Bold;
+	src: url('./fonts/Anodina-Bold.otf');
+}

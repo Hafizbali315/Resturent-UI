@@ -1,0 +1,242 @@
+.cover_page {
+	width: 100%;
+	min-width: calc(100vw - 20px);
+	min-height: 100vh;
+	max-height: 100vh;
+	background-image: url('../../assets/cover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	padding: 0 200px;
+	color: #fff;
+
+	.content {
+		padding-top: 220px;
+
+		h1 {
+			width: 60%;
+			font-size: 50px;
+			font-weight: bold;
+			line-height: 120%;
+		}
+
+		button {
+			margin-top: 40px;
+			height: 50px;
+			width: 240px;
+			font-weight: 400;
+			background: transparent;
+			border: 1px solid #fff;
+			box-sizing: border-box;
+			font-size: 18px;
+			color: #fff;
+			font-weight: 500;
+
+			.arrow {
+				padding-left: 15px;
+				font-size: 50px;
+			}
+
+			&:hover {
+				background-color: #fff;
+				color: #000;
+			}
+		}
+
+		.social_links {
+			margin-top: 200px;
+
+			ul {
+				list-style: none;
+				display: flex;
+				padding: 0;
+				li {
+					padding-left: 60px;
+					font-weight: 500;
+					font-size: 16px;
+
+					font-family: Anodina;
+
+					letter-spacing: 0.02em;
+
+					&:first-child {
+						padding-left: 0;
+					}
+
+					a {
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.cover_page {
+		padding: 0 150px;
+
+		.content {
+			padding-top: 180px;
+
+			h1 {
+				width: 60%;
+				font-size: 40px;
+			}
+
+			button {
+				margin-top: 40px;
+				height: 45px;
+				width: 220px;
+				font-size: 16px;
+
+				.arrow {
+					font-size: 45px;
+				}
+			}
+
+			.social_links {
+				margin-top: 180px;
+
+				ul {
+					li {
+						padding-left: 60px;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.cover_page {
+		padding: 0 100px;
+
+		.content {
+			padding-top: 180px;
+
+			h1 {
+				width: 60%;
+				font-size: 35px;
+			}
+
+			.social_links {
+				margin-top: 200px;
+
+				ul {
+					li {
+						padding-left: 60px;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.cover_page {
+		padding: 0 75px;
+
+		.content {
+			padding-top: 180px;
+
+			h1 {
+				width: 60%;
+				font-size: 30px;
+			}
+
+			.social_links {
+				margin-top: 210px;
+
+				ul {
+					li {
+						padding-left: 60px;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cover_page {
+		padding: 0 75px;
+
+		.content {
+			padding-top: 200px;
+
+			h1 {
+				width: 75%;
+				font-size: 30px;
+			}
+
+			.social_links {
+				margin-top: 200px;
+
+				ul {
+					li {
+						padding-left: 60px;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.cover_page {
+		padding: 0 50px;
+
+		.content {
+			padding-top: 200px;
+
+			h1 {
+				width: 85%;
+				font-size: 30px;
+			}
+
+			.social_links {
+				margin-top: 200px;
+
+				ul {
+					li {
+						padding-left: 40px;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.cover_page {
+		padding: 0 30px;
+
+		.content {
+			padding-top: 200px;
+
+			h1 {
+				width: 100%;
+				font-size: 30px;
+			}
+
+			.social_links {
+				margin-top: 200px;
+
+				ul {
+					li {
+						padding-left: 35px;
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+}
